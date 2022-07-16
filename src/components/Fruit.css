@@ -1,0 +1,91 @@
+.rasm{
+    width: 100px;
+    height: 99px;
+    background-color: coral;
+    box-shadow: 0px 0px 12px 0px rgba(73,75,116,0.16);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+
+    padding: 15px 0;
+    border-bottom: 1px solid whitesmoke;
+
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    box-sizing: border-box;
+
+}
+
+.button{
+    width: 70px;
+    border-color:#2DCC70;
+    background-color: #2DCC78;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+
+.next-button{
+    width: 20px;
+    border-color:#2DCC70;
+    background-color: #2DCC78;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+
+.plus-minus{
+    margin-left: auto;
+
+}
+
+.top{
+    display: flex;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.bottom{
+    display: flex;
+    margin-top: auto;
+}
+.data{
+    margin-right: 25px;
+}
+
+.title{
+    opacity: 0.3;
+}
+
+.value{
+    font-weight: 900;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+}

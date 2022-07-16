@@ -1,0 +1,39 @@
+.container-one{
+    display: flex;
+    background-color: #2DCC78;
+
+    align-items: center;
+}
+.wrap{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+}
+.icons{
+    margin-left: 130px;
+    color: white;
+    font-weight: 600;
+}
+.icon:nth-child(1){
+    margin-right: 10px;
+}
+
+.icon:nth-child(2){
+    margin-left: 10px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.navbar-img,.icon{
+    width: 15px;
+    height: 15px;
+}
